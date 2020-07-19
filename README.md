@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # HorizontalSelector
 
 [![CI Status](https://img.shields.io/travis/LorTos/HorizontalSelector.svg?style=flat)](https://travis-ci.org/LorTos/HorizontalSelector)
@@ -28,6 +27,3 @@ LorTos, lorenzotoscanidc@gmail.com
 ## License
 
 HorizontalSelector is available under the MIT license. See the LICENSE file for more info.
-=======
-# HorizontalSelector
->>>>>>> 34a0576... Initial commit
