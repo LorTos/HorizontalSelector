@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HorizontalSelector_Example' do
+  pod 'HorizontalSelector', :path => '../'
+
+  target 'HorizontalSelector_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
