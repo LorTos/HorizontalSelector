@@ -1,0 +1,16 @@
+PODS:
+  - HorizontalSelector (0.1.0)
+
+DEPENDENCIES:
+  - HorizontalSelector (from `../`)
+
+EXTERNAL SOURCES:
+  HorizontalSelector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HorizontalSelector: d83d52bf611ac0c46ec3bbcf78691e3b701bd42b
+
+PODFILE CHECKSUM: 227234cc869093531fc9dda52d3c183faadd3ad6
+
+COCOAPODS: 1.9.3

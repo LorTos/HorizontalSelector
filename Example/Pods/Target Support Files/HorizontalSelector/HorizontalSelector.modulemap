@@ -1,0 +1,6 @@
+framework module HorizontalSelector {
+  umbrella header "HorizontalSelector-umbrella.h"
+
+  export *
+  module * { export * }
+}

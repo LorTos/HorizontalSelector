@@ -31,7 +31,7 @@
 		05BE3090E45BB025983455B9 /* Pods-HorizontalSelector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSelector_Tests.release.xcconfig"; path = "Target Support Files/Pods-HorizontalSelector_Tests/Pods-HorizontalSelector_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0BBBFAC9F278DEA4BECEE667 /* Pods_HorizontalSelector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalSelector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		231FDD3BE1A117D9B84CB8F2 /* Pods-HorizontalSelector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSelector_Example.release.xcconfig"; path = "Target Support Files/Pods-HorizontalSelector_Example/Pods-HorizontalSelector_Example.release.xcconfig"; sourceTree = "<group>"; };
-		45AA9827749FB5558852B519 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		45AA9827749FB5558852B519 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HorizontalSelector_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalSelector_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		72C90E03DE6EFFE950D1E561 /* Pods_HorizontalSelector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalSelector_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9EAC73DA69A986E4871FC16 /* HorizontalSelector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HorizontalSelector.podspec; path = ../HorizontalSelector.podspec; sourceTree = "<group>"; };
-		CF7EA3FF75B1BDF01EB97477 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B9EAC73DA69A986E4871FC16 /* HorizontalSelector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HorizontalSelector.podspec; path = ../HorizontalSelector.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CF7EA3FF75B1BDF01EB97477 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E152FCCB8CCC13F3DB35BF41 /* Pods-HorizontalSelector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSelector_Example.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalSelector_Example/Pods-HorizontalSelector_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F45B003A083460309742CF1C /* Pods-HorizontalSelector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSelector_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalSelector_Tests/Pods-HorizontalSelector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				F45B003A083460309742CF1C /* Pods-HorizontalSelector_Tests.debug.xcconfig */,
 				05BE3090E45BB025983455B9 /* Pods-HorizontalSelector_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
