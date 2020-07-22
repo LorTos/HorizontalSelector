@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		05ECBC8A831AC22EA724DB8FF487E35C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		165785A9172F5D000AD9CBEA0FE96E93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5A2FCAE54E3C3ED8E2E1507D436E2D84 /* HorizontalSelector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A7281C069A0770F3333DD09BBE22AB /* HorizontalSelector-dummy.m */; };
 		5C941B7AF015D6275EBC96D953D0A0BB /* Pods-HorizontalSelector_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5A012ED6F796D097D6884E62825999 /* Pods-HorizontalSelector_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6870EA20F7CBC98AA8282C829A30BE79 /* HorizontalSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876492510AF9F42766613340DCFB70F3 /* HorizontalSelectorView.swift */; };
 		73F59BAC56775EC6C40CF2F21D2878FF /* Pods-HorizontalSelector_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F05068EFEE3747D27D46CBF863C94388 /* Pods-HorizontalSelector_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C289FD4422CA171A45AE92C8C41A821 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8D31F90469E3F27758398C06A02FC6E2 /* HorizontalSelector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D7759F2D922DF118630839C67597FD /* HorizontalSelector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DC708AE51D3C8EF60B88D6AE148C5F8 /* HorizontalSelector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF5F905C858FE123529E65FC023C796 /* HorizontalSelector-dummy.m */; };
+		8D31F90469E3F27758398C06A02FC6E2 /* HorizontalSelector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43161C606C37183E952E0CD4A3FFD49C /* HorizontalSelector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBBFFFDE0344D3ED209F99FB003E18AC /* Pods-HorizontalSelector_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD801E17CFCBFCCB99C81DB749AB82AB /* Pods-HorizontalSelector_Example-dummy.m */; };
 		DC5A0E7B761A13C70185368625638F55 /* Pods-HorizontalSelector_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F2268E9F24CC0CE2D7236D7DAA8CC1 /* Pods-HorizontalSelector_Tests-dummy.m */; };
-		FE2E219124C42C6900CCE064 /* HorizontalSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2E219024C42C6900CCE064 /* HorizontalSelectorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,38 +38,38 @@
 
 /* Begin PBXFileReference section */
 		08E6189B284F3767F4AD7BA8E38B492B /* Pods-HorizontalSelector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalSelector_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0F8B6F3FB919C8C1CCAF6A25DD6B9905 /* HorizontalSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HorizontalSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19021FF370F837EAAE3330DBBFCA11E0 /* HorizontalSelector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HorizontalSelector.release.xcconfig; sourceTree = "<group>"; };
-		19936CA097EEF1AA8093264E49C1554E /* HorizontalSelector.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HorizontalSelector.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0B5007E289F24A5F0BF10C434FF16AE1 /* HorizontalSelector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HorizontalSelector.release.xcconfig; sourceTree = "<group>"; };
+		0F8B6F3FB919C8C1CCAF6A25DD6B9905 /* HorizontalSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HorizontalSelector.framework; path = HorizontalSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5C058338571CC6373558AFCE52AD2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1FBE96EB352E4AC1AD099CDDDED5147D /* Pods-HorizontalSelector_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HorizontalSelector_Example-frameworks.sh"; sourceTree = "<group>"; };
-		31B2CF84C25E73CDB8054753FD550AA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1FF64B5203D8081A73914E5F80159904 /* HorizontalSelector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HorizontalSelector-prefix.pch"; sourceTree = "<group>"; };
+		20D95A68D51DE6A894F6F72351F8865A /* HorizontalSelector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HorizontalSelector.modulemap; sourceTree = "<group>"; };
+		256691F60DBC3D006E96DE9E7922C38C /* HorizontalSelector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HorizontalSelector-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		393D1F085D09480550B66DCAED2BEE81 /* HorizontalSelector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HorizontalSelector-Info.plist"; sourceTree = "<group>"; };
+		43161C606C37183E952E0CD4A3FFD49C /* HorizontalSelector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HorizontalSelector-umbrella.h"; sourceTree = "<group>"; };
 		47CCDC9C684F5602C00AFEFBBB3189BE /* Pods-HorizontalSelector_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HorizontalSelector_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4B76973DB14BF0477CCAB9F9CF408DE4 /* Pods-HorizontalSelector_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HorizontalSelector_Example-Info.plist"; sourceTree = "<group>"; };
 		58B458FEAEB41F9448BE987CFCB3752A /* Pods-HorizontalSelector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalSelector_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		62D7759F2D922DF118630839C67597FD /* HorizontalSelector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HorizontalSelector-umbrella.h"; sourceTree = "<group>"; };
-		6FF5F905C858FE123529E65FC023C796 /* HorizontalSelector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HorizontalSelector-dummy.m"; sourceTree = "<group>"; };
+		64DC5965982D37320BA9F8C3F60C8F91 /* HorizontalSelector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HorizontalSelector.debug.xcconfig; sourceTree = "<group>"; };
 		7DF62F864692F18A32E9A667982D863C /* Pods-HorizontalSelector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalSelector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		876492510AF9F42766613340DCFB70F3 /* HorizontalSelectorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalSelectorView.swift; path = HorizontalSelector/Classes/HorizontalSelectorView.swift; sourceTree = "<group>"; };
 		890B91690254E4F96FC20409AB793AC6 /* Pods-HorizontalSelector_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HorizontalSelector_Example.modulemap"; sourceTree = "<group>"; };
-		9040424CB556106797CE30178A2E0DD7 /* HorizontalSelector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HorizontalSelector.modulemap; sourceTree = "<group>"; };
+		90A7281C069A0770F3333DD09BBE22AB /* HorizontalSelector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HorizontalSelector-dummy.m"; sourceTree = "<group>"; };
 		94F85F50D942839D4EC2EF9F0757FA62 /* Pods-HorizontalSelector_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HorizontalSelector_Tests-Info.plist"; sourceTree = "<group>"; };
-		979D20D166467E51942A8FDF57943186 /* HorizontalSelector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HorizontalSelector.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B39915BAEF7859F0F287C76FF491EEA8 /* Pods-HorizontalSelector_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HorizontalSelector_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BE460AC0B90D728976534457522D9AAB /* Pods_HorizontalSelector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalSelector_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE460AC0B90D728976534457522D9AAB /* Pods_HorizontalSelector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HorizontalSelector_Example.framework; path = "Pods-HorizontalSelector_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F2268E9F24CC0CE2D7236D7DAA8CC1 /* Pods-HorizontalSelector_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HorizontalSelector_Tests-dummy.m"; sourceTree = "<group>"; };
+		D3411E5F75DCB8E87AF63D7163A33ECD /* HorizontalSelector.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HorizontalSelector.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D3940747155F39F7C48B7572C0395EA9 /* Pods-HorizontalSelector_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HorizontalSelector_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DCD7A476B8EB64334A7049BF9C986D05 /* HorizontalSelector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HorizontalSelector-prefix.pch"; sourceTree = "<group>"; };
 		DE5A012ED6F796D097D6884E62825999 /* Pods-HorizontalSelector_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HorizontalSelector_Example-umbrella.h"; sourceTree = "<group>"; };
+		EB2C752239382C97166B62729CE7EBFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		ED3A2BD6156C525EDE69B2600F3F71B4 /* Pods-HorizontalSelector_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HorizontalSelector_Tests.modulemap"; sourceTree = "<group>"; };
 		EDA69C8FBC3106BBA593A19EC7AC3108 /* Pods-HorizontalSelector_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HorizontalSelector_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F05068EFEE3747D27D46CBF863C94388 /* Pods-HorizontalSelector_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HorizontalSelector_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F563F95EBCB3BB066F8C4D1A3D69F16E /* Pods-HorizontalSelector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalSelector_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F70914B51F2A0FDA7A6691FBCF55D128 /* Pods_HorizontalSelector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalSelector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70914B51F2A0FDA7A6691FBCF55D128 /* Pods_HorizontalSelector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HorizontalSelector_Tests.framework; path = "Pods-HorizontalSelector_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD801E17CFCBFCCB99C81DB749AB82AB /* Pods-HorizontalSelector_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HorizontalSelector_Example-dummy.m"; sourceTree = "<group>"; };
-		FE2E219024C42C6900CCE064 /* HorizontalSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HorizontalSelectorView.swift; path = HorizontalSelector/Classes/HorizontalSelectorView.swift; sourceTree = "<group>"; };
-		FF66EF1534E14DACD60AFD4FA8B9CFE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,15 +116,14 @@
 			path = "Target Support Files/Pods-HorizontalSelector_Tests";
 			sourceTree = "<group>";
 		};
-		326F4641B6F1930694FF60FED657D720 /* HorizontalSelector */ = {
+		266323A1FA9925DD8FF186B1124C818A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E5C889FC9D3298F95C4DDBCF0A5215BC /* Pod */,
-				DE54DFD44E42EE8FA298D03F38BDD752 /* Support Files */,
-				FE2E219024C42C6900CCE064 /* HorizontalSelectorView.swift */,
+				D3411E5F75DCB8E87AF63D7163A33ECD /* HorizontalSelector.podspec */,
+				1F5C058338571CC6373558AFCE52AD2D /* LICENSE */,
+				EB2C752239382C97166B62729CE7EBFB /* README.md */,
 			);
-			name = HorizontalSelector;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		44E6462366A5A0A8A514D499C3699599 /* Products */ = {
@@ -140,7 +139,7 @@
 		6DFD0E7D998B8537A2E2F3907A714F8D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				326F4641B6F1930694FF60FED657D720 /* HorizontalSelector */,
+				C6FF05D84869ADEE46A6280A9F744304 /* HorizontalSelector */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -179,6 +178,32 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C6FF05D84869ADEE46A6280A9F744304 /* HorizontalSelector */ = {
+			isa = PBXGroup;
+			children = (
+				876492510AF9F42766613340DCFB70F3 /* HorizontalSelectorView.swift */,
+				266323A1FA9925DD8FF186B1124C818A /* Pod */,
+				CC37F4617BDE7560FDA4F4D061729561 /* Support Files */,
+			);
+			name = HorizontalSelector;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CC37F4617BDE7560FDA4F4D061729561 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20D95A68D51DE6A894F6F72351F8865A /* HorizontalSelector.modulemap */,
+				90A7281C069A0770F3333DD09BBE22AB /* HorizontalSelector-dummy.m */,
+				256691F60DBC3D006E96DE9E7922C38C /* HorizontalSelector-Info.plist */,
+				1FF64B5203D8081A73914E5F80159904 /* HorizontalSelector-prefix.pch */,
+				43161C606C37183E952E0CD4A3FFD49C /* HorizontalSelector-umbrella.h */,
+				64DC5965982D37320BA9F8C3F60C8F91 /* HorizontalSelector.debug.xcconfig */,
+				0B5007E289F24A5F0BF10C434FF16AE1 /* HorizontalSelector.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HorizontalSelector";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -196,31 +221,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DE54DFD44E42EE8FA298D03F38BDD752 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9040424CB556106797CE30178A2E0DD7 /* HorizontalSelector.modulemap */,
-				6FF5F905C858FE123529E65FC023C796 /* HorizontalSelector-dummy.m */,
-				393D1F085D09480550B66DCAED2BEE81 /* HorizontalSelector-Info.plist */,
-				DCD7A476B8EB64334A7049BF9C986D05 /* HorizontalSelector-prefix.pch */,
-				62D7759F2D922DF118630839C67597FD /* HorizontalSelector-umbrella.h */,
-				979D20D166467E51942A8FDF57943186 /* HorizontalSelector.debug.xcconfig */,
-				19021FF370F837EAAE3330DBBFCA11E0 /* HorizontalSelector.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HorizontalSelector";
-			sourceTree = "<group>";
-		};
-		E5C889FC9D3298F95C4DDBCF0A5215BC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				19936CA097EEF1AA8093264E49C1554E /* HorizontalSelector.podspec */,
-				31B2CF84C25E73CDB8054753FD550AA4 /* LICENSE */,
-				FF66EF1534E14DACD60AFD4FA8B9CFE1 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +277,7 @@
 			buildConfigurationList = 1C8436055A521F05BE2352EA7C786AA2 /* Build configuration list for PBXNativeTarget "HorizontalSelector" */;
 			buildPhases = (
 				AFE98EBC64A596C6F6080BBD8D9F6F3E /* Headers */,
-				F83CEE9FF67BBAB5E4A27ABB96A81049 /* Sources */,
+				8E6DFD4021EA0B47D2E44BB599431428 /* Sources */,
 				98A6856BDC6E001487FFE5AB00127ECA /* Frameworks */,
 				618729A51BAFE269D468561F95FF0A1D /* Resources */,
 			);
@@ -317,11 +317,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					90C313CBE4019BE6E7141166FF420E90 = {
-						LastSwiftMigration = 1160;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -384,12 +379,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F83CEE9FF67BBAB5E4A27ABB96A81049 /* Sources */ = {
+		8E6DFD4021EA0B47D2E44BB599431428 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DC708AE51D3C8EF60B88D6AE148C5F8 /* HorizontalSelector-dummy.m in Sources */,
-				FE2E219124C42C6900CCE064 /* HorizontalSelectorView.swift in Sources */,
+				5A2FCAE54E3C3ED8E2E1507D436E2D84 /* HorizontalSelector-dummy.m in Sources */,
+				6870EA20F7CBC98AA8282C829A30BE79 /* HorizontalSelectorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,141 +406,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		020EE8BF01A47C5966D1BF71D24A654F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DF62F864692F18A32E9A667982D863C /* Pods-HorizontalSelector_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalSelector_Tests/Pods-HorizontalSelector_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalSelector_Tests/Pods-HorizontalSelector_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		43F3E40EB8DB86F3F04CBCE3297AC5A8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58B458FEAEB41F9448BE987CFCB3752A /* Pods-HorizontalSelector_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalSelector_Tests/Pods-HorizontalSelector_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalSelector_Tests/Pods-HorizontalSelector_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		93D51EEC93C84CC17605BFB44C8F49F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19021FF370F837EAAE3330DBBFCA11E0 /* HorizontalSelector.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HorizontalSelector/HorizontalSelector-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HorizontalSelector/HorizontalSelector-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HorizontalSelector/HorizontalSelector.modulemap";
-				PRODUCT_MODULE_NAME = HorizontalSelector;
-				PRODUCT_NAME = HorizontalSelector;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A6642B008C50D3FC5279F1E50EA77063 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F563F95EBCB3BB066F8C4D1A3D69F16E /* Pods-HorizontalSelector_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalSelector_Example/Pods-HorizontalSelector_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalSelector_Example/Pods-HorizontalSelector_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -593,18 +454,123 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		8B4AB6A0556CA3623852D18B94703991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64DC5965982D37320BA9F8C3F60C8F91 /* HorizontalSelector.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HorizontalSelector/HorizontalSelector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HorizontalSelector/HorizontalSelector-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HorizontalSelector/HorizontalSelector.modulemap";
+				PRODUCT_MODULE_NAME = HorizontalSelector;
+				PRODUCT_NAME = HorizontalSelector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A03A70705271CE55C8CF928C98F27626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DF62F864692F18A32E9A667982D863C /* Pods-HorizontalSelector_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalSelector_Tests/Pods-HorizontalSelector_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalSelector_Tests/Pods-HorizontalSelector_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A998B71239C1CC6DCFBB15CAB01B3BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F563F95EBCB3BB066F8C4D1A3D69F16E /* Pods-HorizontalSelector_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalSelector_Example/Pods-HorizontalSelector_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalSelector_Example/Pods-HorizontalSelector_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -655,7 +621,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -668,11 +634,13 @@
 			};
 			name = Debug;
 		};
-		C858BBC21D82DCEB08F0370E0A57102A /* Debug */ = {
+		E64DC60B0F3D9D24D657E7EC9242CA4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08E6189B284F3767F4AD7BA8E38B492B /* Pods-HorizontalSelector_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -684,7 +652,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalSelector_Example/Pods-HorizontalSelector_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalSelector_Example/Pods-HorizontalSelector_Example.modulemap";
@@ -701,11 +669,12 @@
 			};
 			name = Debug;
 		};
-		E6F9F4D0D2C3A33BC1E8B06CAE4C4A36 /* Debug */ = {
+		EAE9348CE76D0F190C0A5439BAA0C3A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 979D20D166467E51942A8FDF57943186 /* HorizontalSelector.debug.xcconfig */;
+			baseConfigurationReference = 0B5007E289F24A5F0BF10C434FF16AE1 /* HorizontalSelector.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -718,7 +687,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HorizontalSelector/HorizontalSelector-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HorizontalSelector/HorizontalSelector-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HorizontalSelector/HorizontalSelector.modulemap";
 				PRODUCT_MODULE_NAME = HorizontalSelector;
@@ -726,13 +695,49 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		FC91DD5CFE0422C6562421F04F222D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58B458FEAEB41F9448BE987CFCB3752A /* Pods-HorizontalSelector_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalSelector_Tests/Pods-HorizontalSelector_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalSelector_Tests/Pods-HorizontalSelector_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -740,8 +745,8 @@
 		1C8436055A521F05BE2352EA7C786AA2 /* Build configuration list for PBXNativeTarget "HorizontalSelector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E6F9F4D0D2C3A33BC1E8B06CAE4C4A36 /* Debug */,
-				93D51EEC93C84CC17605BFB44C8F49F3 /* Release */,
+				8B4AB6A0556CA3623852D18B94703991 /* Debug */,
+				EAE9348CE76D0F190C0A5439BAA0C3A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -749,8 +754,8 @@
 		24561933AD63D37EF5B5537FE67D6450 /* Build configuration list for PBXNativeTarget "Pods-HorizontalSelector_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				020EE8BF01A47C5966D1BF71D24A654F /* Debug */,
-				43F3E40EB8DB86F3F04CBCE3297AC5A8 /* Release */,
+				A03A70705271CE55C8CF928C98F27626 /* Debug */,
+				FC91DD5CFE0422C6562421F04F222D44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -758,8 +763,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -767,8 +772,8 @@
 		6413C00F03D96524F15283B0A2CF2940 /* Build configuration list for PBXNativeTarget "Pods-HorizontalSelector_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C858BBC21D82DCEB08F0370E0A57102A /* Debug */,
-				A6642B008C50D3FC5279F1E50EA77063 /* Release */,
+				E64DC60B0F3D9D24D657E7EC9242CA4A /* Debug */,
+				A998B71239C1CC6DCFBB15CAB01B3BFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -102,7 +102,7 @@ class HorizontalSelectorView: UIView {
     
     // MARK: State & Delegate
     private var state = State()
-    weak var delegate: HorizontalSelectorDelegate?
+    weak var delegate: HorizontalSelectorViewDelegate?
     
     // MARK: Subviews
     private lazy var buttonStack: UIStackView = {
@@ -132,8 +132,8 @@ class HorizontalSelectorView: UIView {
     private func commonInit() {
         translatesAutoresizingMaskIntoConstraints = false
         
-        backgroundColor = .tgBlack
-        layer.shadowColor = UIColor.tgBlack.cgColor
+		backgroundColor = .black
+        layer.shadowColor = UIColor.black.cgColor
         layer.shadowOpacity = 0.2
         layer.shadowOffset = CGSize(width: 0, height: 1)
         layer.shadowRadius = 6
@@ -263,7 +263,6 @@ class HorizontalSelectorView: UIView {
                     if !self.hasSelection, let cta = self.actionString {
                         $0.setTitle(cta, for: .normal)
                     }
-//                    $0.setImage(UIImage(named: "arrow_down", in: Bundle.gps, compatibleWith: nil), for: .normal)
                 }
                 $0.isHidden = !isSelected
             }
