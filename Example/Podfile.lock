@@ -1,5 +1,5 @@
 PODS:
-  - HorizontalSelector (0.1.0)
+  - HorizontalSelector (0.1.1)
 
 DEPENDENCIES:
   - HorizontalSelector (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HorizontalSelector: 9b4edce9f6b1028c93ece54862beca8a551015dd
+  HorizontalSelector: 14ed7337e7e627ee2e4e43a889396bb088b199ff
 
-PODFILE CHECKSUM: 681bebd3a68925c76e8b12a2505f97cf7bc00f13
+PODFILE CHECKSUM: 227234cc869093531fc9dda52d3c183faadd3ad6
 
 COCOAPODS: 1.9.3
